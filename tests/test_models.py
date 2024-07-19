@@ -183,6 +183,6 @@ class TestAccount(unittest.TestCase):
         account.name = "TestName"
         # Expected string representation
         expected_repr = "<Account TestName id=[1234]>"
-        
+
         # Assert the repr output
         self.assertEqual(repr(account), expected_repr)
